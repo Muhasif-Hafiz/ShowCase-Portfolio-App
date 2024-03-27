@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1D1A39">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:layout_toRightOf="@id/imgProfile"
+                android:fontFamily="monospace"
+                android:padding="2dp"
+                android:text="MUHASIF HAFIZ"
+                android:textColor="#E8BCB9"
+                android:textSize="25sp"
+                android:textStyle="italic">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imgProfile"
+                android:layout_width="110dp"
+                android:layout_height="120dp"
+                android:layout_margin="15dp"
+                android:layout_marginTop="200dp"
+                android:src="@drawable/profile"
+
+                >
+
+
+            </ImageView>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp"
+                android:text="muhasibgafeez91@gmail.com"
+                android:textColor="#E8BCB9"
+                android:textSize="11sp"
+                android:textStyle="italic">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtEmail"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp"
+                android:text="+919419358727"
+                android:textColor="#E8BCB9"
+                android:textSize="11sp"
+                android:textStyle="italic">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtDOB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtPhone"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp"
+                android:text="24/03/2004"
+                android:textColor="#E8BCB9"
+                android:textSize="11sp"
+                android:textStyle="italic">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/txtAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDOB"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp"
+                android:text="Sopore, J and K "
+                android:textColor="#E8BCB9"
+                android:textSize="11sp"
+                android:textStyle="italic">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtRecents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="cursive"
+                android:padding="5dp"
+                android:text="Recent Achievement !"
+                android:textColor="#F39F5A"
+                android:textSize="20sp"
+                android:textStyle="italic"
+
+
+                >
+
+            </TextView>
+
+
+            <Button
+                android:id="@+id/Achievement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="55dp"
+                android:fontFamily="monospace"
+
+                android:text="View "
+
+                >
+
+
+            </Button>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtProfessional"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="20dp"
+                android:text="Professional Description "
+                android:textColor="#DFB6B2"
+                android:textSize="18sp"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtProfessional"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="sans-serif"
+                android:letterSpacing="0.05"
+                android:text="@string/professionalDescriptionFinal"
+                android:textColor="#E1CBD7"
+                android:textStyle="italic">
+
+
+            </TextView>
+
+
+            <Button
+                android:id="@+id/professionalDescription1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDescription"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:text=" Read More">
+
+            </Button>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtSkills"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="20dp"
+                android:text="Skills "
+                android:textColor="#DFB6B2"
+                android:textSize="18sp"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtJava1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtSkills"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="sans-serif"
+                android:letterSpacing="0.05"
+                android:text="Java Developer"
+                android:textColor="#E1CBD7"
+                android:textStyle="italic">
+
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtandroid1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtJava1"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="sans-serif"
+                android:letterSpacing="0.05"
+                android:layout_marginTop="20dp"
+                android:text="Android Developer "
+                android:textColor="#E1CBD7"
+                android:textStyle="italic">
+
+
+            </TextView>
+            <TextView
+                android:id="@+id/txtBlogWriter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtandroid1"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="sans-serif"
+                android:letterSpacing="0.05"
+                android:text="Blog Writer"
+                android:layout_marginTop="20dp"
+                android:textColor="#E1CBD7"
+                android:textStyle="italic">
+
+
+            </TextView>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtExperiance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="20dp"
+                android:text="Experiance  "
+                android:textColor="#DFB6B2"
+                android:textSize="18sp"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtIEEE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtExperiance"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="sans-serif"
+                android:letterSpacing="0.05"
+                android:text="Apr 2023 - Present         Editorial Manager at IEEE"
+                android:textColor="#E8BCB9"
+                android:textStyle="italic">
+
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtGDSC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtIEEE"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:letterSpacing="0.05"
+                android:text="June 2023 - Feb 2024         Content Lead at GDSC "
+                android:textColor="#E8BCB9"
+                android:textStyle="italic"
+
+                >
+
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtTezos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtGDSC"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:letterSpacing="0.05"
+                android:text="Aug 2023 - Present                 Mentor at Tezos"
+                android:textColor="#E8BCB9"
+                android:textStyle="italic"
+
+                >
+
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtRMC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtTezos"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:letterSpacing="0.05"
+                android:text="Jan 2023 - Dec 2023               Content Specialist"
+                android:textColor="#E8BCB9"
+                android:textStyle="italic"
+
+                >
+
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtShamrocks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtRMC"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:letterSpacing="0.05"
+                android:text="Apr 2023 - Nov 2023                   Content Writer"
+                android:textColor="#E8BCB9"
+                android:textStyle="italic"
+
+                >
+
+
+            </TextView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtCertifications"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="20dp"
+                android:text="Certifications "
+                android:textColor="#DFB6B2"
+                android:textSize="18sp"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtjava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtCertifications"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="sans-serif"
+                android:letterSpacing="0.05"
+                android:text="Java + Dsa Bootcamp "
+                android:textColor="#DFB6B2"
+                android:textStyle="italic">
+
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtjava"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="sans-serif"
+                android:letterSpacing="0.05"
+                android:layout_marginTop="20dp"
+                android:text="Android Development Bootcamp "
+                android:textColor="#DFB6B2"
+                android:textStyle="italic">
+
+
+            </TextView>
+
+            <Button
+                android:id="@+id/BtnCertifications"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtad"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="2000dp"
+                android:layout_centerHorizontal="true"
+                android:text="View More"
+
+                android:fontFamily="monospace"
+                >
+
+            </Button>
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtPublications"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="20dp"
+                android:text="Publications"
+                android:textColor="#DFB6B2"
+                android:textSize="18sp"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtEmaan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtPublications"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="sans-serif"
+                android:letterSpacing="0.05"
+                android:text="Author of '''Emaan''' "
+                android:textColor="#DFB6B2"
+                android:textStyle="italic">
+
+
+            </TextView>
+            <TextView
+                android:id="@+id/txtBlogs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtEmaan"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="sans-serif"
+                android:letterSpacing="0.05"
+                android:text="Published Multiple Blogs  "
+                android:textColor="#DFB6B2"
+                android:textStyle="italic">
+
+
+            </TextView>
+            <TextView
+                android:id="@+id/txtArticles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtBlogs"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="sans-serif"
+                android:letterSpacing="0.05"
+                android:text="Published Multiple Articles in IEEE Yearly Magazine  "
+                android:textColor="#DFB6B2"
+                android:textStyle="italic">
+
+
+            </TextView>
+
+
+            <Button
+
+                android:id="@+id/BtnPublications"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtArticles"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:fontFamily="monospace"
+                android:text="Explore more">
+
+            </Button>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</ScrollView>

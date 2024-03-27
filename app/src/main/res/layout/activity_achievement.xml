@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#854F6C"
+    android:orientation="vertical"
+    tools:context=".AchievementActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgfullBook"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:src="@drawable/fullbook"
+
+                >
+
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/txtCollection"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:layout_below="@+id/imgfullBook"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="20dp"
+                android:text="Emaan - A Collection of  Poems "
+                android:textColor="#DFB6B2">
+
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtAmazon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/txtCollection"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="sans-serif"
+                android:letterSpacing="0.05"
+                android:text="@string/book_description"
+                android:textColor="#E1CBD7"
+                android:textStyle="italic"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtImages"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/txtAmazon"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="30dp"
+                android:text="More Images "
+                android:textColor="#DFB6B2"
+                android:textSize="25sp">
+
+
+            </TextView>
+            <ImageView
+                android:id="@+id/imgfront"
+                android:layout_width="130dp"
+                android:layout_height="140dp"
+                android:layout_below="@+id/txtImages"
+                android:src="@drawable/front"
+                >
+
+
+            </ImageView>
+            <ImageView
+                android:id="@+id/imgchair"
+                android:layout_width="130dp"
+                android:layout_height="140dp"
+                android:layout_below="@+id/txtImages"
+                android:src="@drawable/withchair"
+                android:layout_toRightOf="@+id/imgfront"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                >
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/imgNotes"
+                android:layout_width="230dp"
+                android:layout_height="230dp"
+                android:layout_below="@+id/txtImages"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="-44dp"
+                android:layout_toRightOf="@+id/imgchair"
+                android:src="@drawable/face">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
